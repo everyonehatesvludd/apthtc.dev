@@ -7,6 +7,52 @@
     <title>slezkipotekli</title>
     <link rel="icon" type="image/png" href="img/coding.png">
     <style>
+        .liltext {
+            color: white;
+            font-family: "Courier New", Courier, monospace;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+        }
+        .table-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 250px;
+        }
+
+        .table {
+            border-collapse: collapse;
+            background-color: #222;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .table th, .table td {
+            padding: 10px;
+            text-align: center;
+            font-family: "Courier New", Courier, monospace;
+        }
+
+        .table th {
+            background-color: palevioletred;
+            font-size: 16px;
+        }
+
+        .table td {
+            border-bottom: 1px solid #222;
+        }
+
+        .table a {
+            color: #ddd;
+            text-decoration: none;
+        }
+        .table a:hover{
+            color: palevioletred;
+        }
         .container{
             flex: 1;
             display: flex;
@@ -68,6 +114,7 @@
             min-height: 100vh;
             margin: 0;
         }
+
         footer {
             background-color: #222;
             color: white;
@@ -95,7 +142,29 @@
             <a class="active" href="practice.html">Practice tasks</a>
             <a href="labs.html">Laboratory tasks</a>
         </div>
+
     </div>
+    <div class="table-container">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Date</th>
+                <th>Task</th>
+                <th>Solutions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><a>14.09.2023</a></td>
+                <td><a href="tasks/practice_1.pdf">Task 1</a></td>
+                <td><a href="#">Solution</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <a class="liltext">
+        tasks and solutions are clickable!
+    </a>
 </div>
 <footer>
     practice! ofc that are here
