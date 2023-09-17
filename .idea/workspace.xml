@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e117b9e-920f-4bc2-b827-d1f639fe94cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/schedule.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice.html" afterDir="false" />
     </list>
@@ -22,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -62,6 +66,9 @@
       <workItem from="1694776668018" duration="20670000" />
       <workItem from="1694802236259" duration="140000" />
       <workItem from="1694802525270" duration="31000" />
+      <workItem from="1694802597075" duration="165000" />
+      <workItem from="1694804463399" duration="14000" />
+      <workItem from="1694908977975" duration="2405000" />
     </task>
     <servers />
   </component>
