@@ -4,61 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>practice</title>
-    <link rel="icon" type="image/png" href="../img/coding.png">
+    <title>about me</title>
+    <link rel="icon" type="image/png" href="img/coding.png">
     <style>
-        .liltext {
-            color: white;
-            font-family: "Courier New", Courier, monospace;
-            text-align: center;
-            padding: 10px;
-            font-size: 12px;
-        }
-        .table-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 250px;
-        }
-
-        .table {
-            border-collapse: collapse;
-            background-color: #222;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-            max-width: 800px;
-            width: 100%;
-        }
-
-        .table th, .table td {
-            padding: 10px;
-            text-align: center;
-            font-family: "Courier New", Courier, monospace;
-        }
-
-        .table th {
-            background-color: palevioletred;
-            font-size: 16px;
-        }
-
-        .table td {
-            border-bottom: 1px solid #222;
-        }
-
-        .table a {
-            color: #ddd;
-            text-decoration: none;
-        }
-        .table a:hover{
-            color: palevioletred;
-        }
         .container{
             flex: 1;
             display: flex;
             flex-direction: column;
         }
-
+        .deftext{
+            word-wrap: break-word;
+            color: white;
+            font-family: "Courier New", Courier, monospace;
+            text-align: center;
+            padding: 100px;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+        }
         .header{
             overflow: hidden;
             background-color: #222;
@@ -114,7 +79,6 @@
             min-height: 100vh;
             margin: 0;
         }
-
         footer {
             background-color: #222;
             color: white;
@@ -133,41 +97,22 @@
 <body>
 <div class="container">
     <div class="header">
-        <a href="../main/index.html">
-            <img src="../img/coding.png" class="logo" alt="logo">
+        <a href="index.html">
+            <img src="img/coding.png" class="logo" alt="logo">
         </a>
         <div class="header-right">
-            <a href="../main/index.html">Home</a>
-            <a href="../about/about.html">About student</a>
-            <a class="active" href="practice.html">Practice tasks</a>
-            <a href="../labs/labs.html">Laboratory tasks</a>
+            <a href="index.html">Home</a>
+            <a class="active" href="about.html">About student</a>
+            <a href="practice.html">Practice tasks</a>
+            <a href="labs.html">Laboratory tasks</a>
         </div>
-
     </div>
-    <div class="table-container">
-        <table class="table">
-            <thead>
-            <tr>
-                <th>Date</th>
-                <th>Task</th>
-                <th>Solutions</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><a>14.09.2023</a></td>
-                <td><a href="../tasks/practice_1.pdf" target="_blank">Task 1</a></td>
-                <td><a href="../schedule/schedule.html">Solution</a></td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-    <a class="liltext">
-        tasks and solutions are clickable!
-    </a>
+    <h3 class="deftext">
+        Привіт, я Лисенко Владислав! Студент ДУІКТ, що розказати більше не знаю, але можливо пізніше доповню цю сторінку
+    </h3>
 </div>
 <footer>
-    practice! ofc that are here
+    this is about me page
     <br>
     <a href="https://t.me/slezkipotekli" target="_blank">telegram</a>
     <a href="https://github.com/everyonehatesvludd" target="_blank">github</a>
