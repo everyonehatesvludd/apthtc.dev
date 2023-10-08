@@ -4,60 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>labs</title>
+    <title>lab1</title>
     <link rel="icon" type="image/png" href="img/coding.png">
     <style>
-        .liltext {
-            color: white;
-            font-family: "Courier New", Courier, monospace;
-            text-align: center;
-            padding: 10px;
-            font-size: 12px;
-        }
-        .table-container {
+        .form-container{
             display: flex;
             justify-content: center;
             align-items: center;
             margin-top: 250px;
         }
-
-        .table {
+        .form{
             border-collapse: collapse;
-            background-color: #222;
+            background-color: #222222;
             border-radius: 10px;
             overflow: hidden;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+            box-shadow: 0 0 10px rgb(222, 247, 254);
             max-width: 800px;
             width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
         }
 
-        .table th, .table td {
-            padding: 10px;
-            text-align: center;
+        .form label{
+            color: #def7fe;
             font-family: "Courier New", Courier, monospace;
-        }
-
-        .table th {
-            background-color: #def7fe;
+            text-align: center;
+            padding: 10px;
             font-size: 16px;
         }
-
-        .table td {
-            border-bottom: 1px solid #222;
+        .form input{
+            border: none;
+            border-radius: 50px;
+            padding: 10px;
+            margin: 10px auto;
+            width: 100%;
+            box-sizing: border-box;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 16px;
         }
-
-        .table a {
-            color: #ddd;
-            text-decoration: none;
-        }
-        .table a:hover{
-            color: #def7fe;
+        .form button{
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px auto;
+            width: 30%;
+            display: block;
+            box-sizing: border-box;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 16px;
+            background-color: #def7fe;
+            color: #222;
         }
         .container{
             flex: 1;
             display: flex;
             flex-direction: column;
         }
+
         .header{
             overflow: hidden;
             background-color: #222;
@@ -113,6 +116,7 @@
             min-height: 100vh;
             margin: 0;
         }
+
         footer {
             background-color: #222;
             color: white;
@@ -141,34 +145,50 @@
             <a class="active" href="labs.html">Laboratory tasks</a>
         </div>
     </div>
-    <div class="table-container">
-        <table class="table">
-            <thead>
-            <tr>
-                <th>Date</th>
-                <th>Task</th>
-                <th>Solutions</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><a>21.09.2023</a></td>
-                <td><a href="tasks/lab_1.pdf" target="_blank">Task 1</a></td>
-                <td><a href="lab1.html">Solution</a></td>
-            </tr>
-            </tbody>
-        </table>
+    <div class="form-container">
+        <form class="form" id="myForm" action="https://webhook.site/7669da93-ab32-4538-887e-5f0d5a4478ed" method="post">
+            <label for="date">Date:</label>
+            <input type="text" id="date" name="date" placeholder="Enter Date" required>
+
+            <label for="task">Task:</label>
+            <input type="text" id="task" name="task" placeholder="Enter Task" required>
+
+            <label for="solution">Solutions:</label>
+            <input type="text" id="solution" name="solution" placeholder="Enter Solution" required>
+
+            <button type="submit">Submit</button>
+        </form>
     </div>
-    <a class="liltext">
-        tasks and solutions are clickable!
-    </a>
 </div>
 <footer>
-    here is my labs
+    first lab
     <br>
     <a href="https://t.me/slezkipotekli" target="_blank">telegram</a>
     <a href="https://github.com/everyonehatesvludd" target="_blank">github</a>
     <a href="mailto:vreginalld@gmail.com">email</a>
 </footer>
+<script>
+    document.getElementById("myForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        const formData = new FormData(this);
+
+        const xhr = new XMLHttpRequest();
+
+        xhr.open("POST", "https://webhook.site/7669da93-ab32-4538-887e-5f0d5a4478ed", true);
+
+        xhr.onload = function() {
+            if (xhr.status === 200) {
+                alert("Данные успешно отправлены!");
+            } else {
+                alert("Произошла ошибка при отправке данных.");
+            }
+        };
+
+        xhr.send(formData);
+        // etot vash javascript eto pizdec prosto
+    });
+</script>
+
 </body>
 </html>
