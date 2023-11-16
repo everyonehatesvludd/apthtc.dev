@@ -128,6 +128,14 @@
         }
 
     </style>
+    <script>
+        function openMultipleFiles() {
+            window.open('tasks/practice_1.pdf', '_blank');
+            setTimeout(function () {
+                window.open('tasks/practice_2.pdf', '_blank');
+            }, 75);
+        }
+    </script>
 </head>
 
 <body>
@@ -155,8 +163,11 @@
             </thead>
             <tbody>
             <tr>
-                <td><a>14.09.2023</a></td>
-                <td><a href="tasks/practice_1.pdf" target="_blank">Task 1</a></td>
+                <td>
+                    <a>14.09.2023</a><br>
+                    <a>28.09.2023</a>
+                </td>
+                <td><a href="#" onclick="openMultipleFiles();">Task 1-2</a></td>
                 <td><a href="schedule.html">Solution</a></td>
             </tr>
             </tbody>
