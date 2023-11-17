@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e117b9e-920f-4bc2-b827-d1f639fe94cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/lab_2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/lab_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apathetic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/labs.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -50,22 +49,23 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/vregi/OneDrive/Documents/GitHub/studysite",
+    "last_opened_file_path": "C:/Users/vregi/OneDrive/Documents/GitHub/everyonehatesvludd",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vregi\OneDrive\Documents\GitHub\studysite\fh" />
       <recent name="C:\Users\vregi\OneDrive\Documents\GitHub\studysite" />
       <recent name="C:\Users\vregi\OneDrive\Documents\GitHub\studysite\footer_header" />
       <recent name="C:\Users\vregi\OneDrive\Documents\GitHub\studysite\schedule" />
       <recent name="C:\Users\vregi\OneDrive\Documents\GitHub\studysite\labs" />
-      <recent name="C:\Users\vregi\OneDrive\Documents\GitHub\studysite\practice" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -93,7 +93,11 @@
       <workItem from="1696786745607" duration="179000" />
       <workItem from="1697011988894" duration="1741000" />
       <workItem from="1697013763170" duration="3130000" />
-      <workItem from="1700124467900" duration="5401000" />
+      <workItem from="1700124467900" duration="8684000" />
+      <workItem from="1700143805804" duration="3000" />
+      <workItem from="1700152165260" duration="411000" />
+      <workItem from="1700223537733" duration="607000" />
+      <workItem from="1700224169022" duration="2735000" />
     </task>
     <servers />
   </component>
