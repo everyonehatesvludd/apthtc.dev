@@ -126,6 +126,14 @@
         }
 
     </style>
+    <script>
+        function openMultipleFiles() {
+            window.open('tasks/lab_3.pdf', '_blank');
+            setTimeout(function () {
+                window.open('tasks/lab3_template.pdf', '_blank');
+            }, 75);
+        }
+    </script>
 </head>
 
 <body>
@@ -160,6 +168,11 @@
                 <td><a>05.10.2023</a></td>
                 <td><a href="tasks/lab_2.pdf" target="_blank">Task 2</a></td>
                 <td><a href="pages/lab_2.html">Solution</a></td>
+            </tr>
+            <tr>
+                <td><a>19.05.2023</a></td>
+                <td><a href="#" onclick="openMultipleFiles();">Task 3</a></td>
+                <td><a href="pages/lab_3.html">Solution</a></td>
             </tr>
             </tbody>
         </table>
