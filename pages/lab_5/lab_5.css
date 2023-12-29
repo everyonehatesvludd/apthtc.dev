@@ -40,7 +40,8 @@ body{
     animation: __link 1s ease-in-out;
 }
 
-.container__link p{
+.container__link a{
+    text-decoration: none;
     color:black;
     font-family: Montserrat, sans-serif;
     font-size: 15px;
