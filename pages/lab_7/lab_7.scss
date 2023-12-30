@@ -1,4 +1,4 @@
-$primary-color: #ff6347;
+$primary-color: #020202;
 $background-color: #f0f0f0;
 $background-image: url("../../img/lab_7-bg.jpg");
 
@@ -20,10 +20,18 @@ body {
   text-align: center;
 }
 
-.card__title {
+.card__title a{
   color: $primary-color;
   text-align: center;
+  text-decoration: none;
 }
 
 .card__content {
+  height: 100%;
+  width: 100%;
+}
+
+.card__content iframe {
+  width: 450px;
+  height: 600px;
 }

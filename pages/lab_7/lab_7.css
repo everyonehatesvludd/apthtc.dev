@@ -16,9 +16,20 @@ body {
   text-align: center;
 }
 
-.card__title {
-  color: #ff6347;
+.card__title a {
+  color: #020202;
   text-align: center;
+  text-decoration: none;
+}
+
+.card__content {
+  height: 100%;
+  width: 100%;
+}
+
+.card__content iframe {
+  width: 450px;
+  height: 600px;
 }
 
 /*# sourceMappingURL=lab_7.css.map */
